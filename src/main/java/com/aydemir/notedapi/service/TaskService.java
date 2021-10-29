@@ -26,6 +26,8 @@ public class TaskService {
     }
 
     public Task update(Task task) {
+        /* actually this seems very unnecessary since it does exactly the same thing with create method.
+        * Because taskRepository.save(task) can be used for both saving and creating. */
         return taskRepository.save(task);
     }
 
