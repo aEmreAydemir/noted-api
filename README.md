@@ -10,7 +10,7 @@ Here is a link to frontend side that was coded with angular:
 https://github.com/aEmreAydemir/noted-web
 
 If you want to use this app locally, dont forget to change cross origin annottation from 
-@CrossOrigin(origins = "https://noted-web-app.herokuapp.com/",maxAge = 3600) to "localhost:/4200"
+@CrossOrigin(origins = "https://noted-web-app.herokuapp.com/", maxAge = 3600) to "localhost:/4200"
 which is commented above.
 
 But if you want to test the project without running it on your local, go to this website that I have deployed my frontend:
