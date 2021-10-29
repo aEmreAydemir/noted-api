@@ -10,7 +10,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("api/task")
-@CrossOrigin(origins = "http://localhost:4200/", maxAge = 3600)
+//@CrossOrigin(origins = "http://localhost:4200/", maxAge = 3600)
+@CrossOrigin(origins = "https://noted-web-app.herokuapp.com/",maxAge = 3600)
 public class TaskController {
 
     @Autowired
